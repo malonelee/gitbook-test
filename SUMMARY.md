@@ -1,11 +1,37 @@
 # Summary
-- For CC Operator
+- Proposers
     - [Overview](cc_overview.md)
-        - [Overview](cc_overview.md)
-            - [Overview](cc_overview.md)
-                - [Overview](cc_overview.md)
-                    - [Overview](cc_overview.md)
     - [Hardware Setting](cc_hw.md)
     - [Network Setting](cc_network.md)
     - [Klaytn Installation](cc_installation.md)
     - [Confirmation](cc_check.md)
+- BApp Developers
+    - Tutorials
+        - Kalculator
+        - Klaystagram
+    - Klaytn Contract Standard
+        - Token Standard
+        - Non-token Standard
+    - Use-cases
+        - E-commerce
+        - Tourism
+        - Digital contents
+        - Administration
+        - Supply chain
+        - Social Impact
+    - Tools
+        - Internal Tools
+        - External Tools
+- Testnets
+    - Overview
+- Support
+    - Overvoew
+- Furthur Documents
+    - API
+    - Go-doc
+    - Position Paper
+        - v1
+        - v2
+    - Technical Report
+        - Optimize journey of transaction using parallel programming
+        - Multi-Region Node Impact Analysis
