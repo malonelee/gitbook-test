@@ -6,6 +6,7 @@
     - [Klaytn Installation](contents/cn_bootstrapping/cc_installation.md)
     - [Confirmation](contents/cn_bootstrapping/cc_check.md)
 - BApp Developers
+    - [Quick Start](contents/getting_started/quick_start.md)
     - Tutorials
         - Kalculator
             - [Introduction](contents/tutorials/kalculator/1-introduction.md)
