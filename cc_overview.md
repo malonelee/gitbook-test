@@ -12,7 +12,7 @@ Klaytn Core Cell을 알아보기 전에 Klaytn Network의 구성요소에 대해
 Klaytn Network은 다음의 요소로 구성되어 있다.
 
 **<그림 1> Klaytn Network**
-![<그림 1> Klaytn Network](/cn_bootstrapping/resources/klaytn_network_overview.png)
+![<그림 1> Klaytn Network](/resources/klaytn_network_overview.png)
 
 
 | Name | Description |
@@ -24,7 +24,7 @@ Klaytn Network은 다음의 요소로 구성되어 있다.
 위의 설명에서 볼 수 있듯이 Core Cell Network(CCN)은 블록체인의 블록을 생성할 수 있는 Core Cell(CC)들의 모임이다. CC는 1대 이상의 노드로 구성되어 있고 그림2는 노드 단위로 그림1을 상세하게 표현한 것이다.
 
 **<그림 2> Klaytn Network with Nodes**   
-![<그림 2> Detailed Klaytn Network](/cn_bootstrapping/resources/klaytn_network_node.png)
+![<그림 2> Detailed Klaytn Network](/resources/klaytn_network_node.png)
 
 
 CC는 간략하게 다음의 순서로 설치/운영을 시작할 수 있다.

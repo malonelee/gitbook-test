@@ -11,7 +11,7 @@ Klaytn Core Cell(CC)을 아래의 노드들로 구성된다.
 - Klaytn PN
 
 **<그림 1> Core Cell 구성도**   
-![](/cn_bootstrapping/resources/cn_set.png)
+![](/resources/cn_set.png)
 
 | 이름 | 설명 | 네트워크 보안 | 수량 |
 | --- | --- | --- |

@@ -26,7 +26,7 @@ CN과 PN은 일반적인 웹서비스의 DB+AppServer와 Proxy Web Server의 역
 ### CN Subnet
 CN Subnet은 Core Cell의 CN 서버들로 구성된다. 1대의 CN으로 구성하지만 HA(High Availability)구성에 따라 최대 2대의 서버로 구성된다. 외부(Internet)를 통해 Core Cell Network(CCN)의 다른 CN들과 연결을 해야하기 때문에 CCN의 모든 CN들의 Ip, Port를 방화벽에서 열어줘야 한다. (이 정보는 Baobab의 운영자에게 받을 수 있다.) Core Cell 내부의 다른 Subnet과의 통신은 PN Subnet의 PN들과 Klaytn P2P 기본 포트(32323)들로 연결이 필요하며 관리 Subnet의 모니터링 서버를 위한 CN 모니터링 포트(61001)과 관리를 위해 SSH(22) 포트를 열어줘야 한다. 
 
-![](/cn_bootstrapping/resources/cn_subnet.png)
+![](/resources/cn_subnet.png)
 
 | Origin Subnet | Target Subnet | Ingress | Egress |
 | --- | --- | --- | --- |
@@ -43,7 +43,7 @@ PN Subnet의 연결대상은 다음과 같다.
 - Core Cell의 관리서버들 (Mgmt, Monitoring)
 - EN 노드들
 
-![](/cn_bootstrapping/resources/pn_subnet.png)
+![](/resources/pn_subnet.png)
 
 | Origin Subnet | Target Subnet | Ingress | Egress |
 | --- | --- | --- | --- |
@@ -54,7 +54,7 @@ PN Subnet의 연결대상은 다음과 같다.
 ### Mgmt Subnet
 Mgmt Subnet은 운영자가 Core Cell의 서버에게 접속(ssh)하기 위한 진입 서브넷이다. VPN 서버를 두어 운영자의 환경에서 연결을 할 수 있도록 해야하며, 모니터링 서버와 Core Cell의 서버들을 관리하기 위한 툴이 설치된 관리용 서버를 두어야 한다.
 
-![](/cn_bootstrapping/resources/admin_subnet.png)
+![](/resources/admin_subnet.png)
 
 | Origin Subnet | Target Subnet | Ingress | Egress |
 | --- | --- | --- | --- |
@@ -69,4 +69,4 @@ Mgmt Subnet은 운영자가 Core Cell의 서버에게 접속(ssh)하기 위한 �
 
 하나의 CC Subnet에 모든 노드를 두고 아래와 같이 CN은 CNN의 다른 CN들만 P2P(32323) 포트로 연결할 수 있도록 방화벽을 설정한다. PN은 Endpoint Node Network(ENN)의 EN과 Core Cell Network(CNN)의 PN과 연결을 할 있도록 P2P 포트를 개방한다. 추가적으로 선택적으로 원격 관리를 위한 VPN과 모니터링 서버를 구성한다.
 
-![](/cn_bootstrapping/resources/cc_single_subnet.png)
+![](/resources/cc_single_subnet.png)
